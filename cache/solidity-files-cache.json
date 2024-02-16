@@ -1,0 +1,112 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/ebenezer/Desktop/Web3bridge/14FEB/contracts/Erc20contarct.sol": {
+      "lastModificationDate": 1707987796437,
+      "contentHash": "ca46a241c1a2242609f2e4e705cdcc8f",
+      "sourceName": "contracts/Erc20contarct.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Erc20contract"
+      ]
+    },
+    "/home/ebenezer/Desktop/Web3bridge/15FEB/contracts/Erc20contract.sol": {
+      "lastModificationDate": 1708093395265,
+      "contentHash": "ca46a241c1a2242609f2e4e705cdcc8f",
+      "sourceName": "contracts/Erc20contract.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Erc20contract"
+      ]
+    },
+    "/home/ebenezer/Desktop/Web3bridge/15FEB/contracts/SaveERC20.sol": {
+      "lastModificationDate": 1708093494981,
+      "contentHash": "bb0f1fb11fe34ef50199e5ac2dcd8ed4",
+      "sourceName": "contracts/SaveERC20.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Erc20contract.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "SaveERC20"
+      ]
+    }
+  }
+}
